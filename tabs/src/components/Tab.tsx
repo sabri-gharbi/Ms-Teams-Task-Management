@@ -1,10 +1,10 @@
 import React from "react";
-import { Welcome } from "./sample/Welcome";
+import Home from "./Home";
 
 export default function Tab() {
   return (
     <div>
-      <Welcome />
+      <Home />
     </div>
   );
 }
