@@ -1,5 +1,5 @@
 import useGetRepositories from "../../hooks/useGetRepositories";
-import { Box, Text } from "@fluentui/react-northstar";
+import { Box, Text, Divider } from "@fluentui/react-northstar";
 import RepositortCard from "./RepositortCard";
 
 const RepositoriesList = () => {
@@ -7,9 +7,11 @@ const RepositoriesList = () => {
 
   return (
     <Box>
-      <Text size="larger" align="center" style={{ marginBottom: 10 }}>
+      <Text size="larger" align="center">
         Repositories List
       </Text>
+
+      <Divider color="black" style={{ marginBlock: 5 }} />
 
       <Box>
         {repositories.map((repository) => (
