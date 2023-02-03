@@ -1,9 +1,9 @@
-import RepositoriesList from "../Repositories/RepositoriesList";
+import RepositoriesList from "../Repositories/RepositoryList";
 import { Box } from "@fluentui/react-northstar";
 
 function Home() {
   return (
-    <Box style={{ padding: 8, minHeight: "100vh" }}>
+    <Box style={{ padding: 10, minHeight: "100vh" }}>
       <RepositoriesList />
     </Box>
   );
